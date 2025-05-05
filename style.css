@@ -13,3 +13,15 @@ img#avatar {
     width: 400px; /* Размер картинки */
     border-radius: 50%; /* Сделать круглую аватарку */
 }
+
+.header-row {
+    display: flex;              /* Расположить элементы в строку */
+    justify-content: space-between; /* Равномерно распределить между элементами */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header-row span {
+    flex: 1;                    /* Все колонки будут одинаковой ширины */
+    text-align: center;         /* Центрирование текста внутри колонок */
+}
