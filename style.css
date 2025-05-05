@@ -18,7 +18,7 @@ img#avatar {
     display: flex;              /* Расположить элементы в строку */
     justify-content: space-between; /* Равномерно распределить между элементами */
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
 }
 
 .header-row span {
